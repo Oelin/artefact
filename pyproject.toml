@@ -9,10 +9,11 @@ packages = [{include = "artefact"}]
 [tool.poetry.dependencies]
 python = "^3.9"
 flask = "^2.2.2"
-diffusers = "^0.10.2"
 python-dotenv = "^0.21.0"
 elasticsearch = "^8.5.3"
 elasticsearch-dsl = {git = "https://github.com/Oelin/elasticsearch-dsl-py.git"}
+diffusers = "^0.10.2"
+sentence-transformers = "^2.2.2"
 
 [build-system]
 requires = ["poetry-core"]
