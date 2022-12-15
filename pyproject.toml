@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "artefact"
+version = "0.1.0"
+description = "A Stable Diffusion search engine."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "artefact"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^2.2.2"
+diffusers = "^0.10.2"
+python-dotenv = "^0.21.0"
+elasticsearch = "^8.5.3"
+elasticsearch-dsl = {git = "https://github.com/Oelin/elasticsearch-dsl-py.git"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
